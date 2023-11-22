@@ -11,6 +11,7 @@ export type OrderListProps = {
     }; // プリントイメージ画像
     orderId: string; // 注文番号
     orderDate: string; // 注文日
+    advanceorder: string; // 同意しない 発注済
     shippingType: string; // お届け希望
     print: string[]; // プリント
     wear: {

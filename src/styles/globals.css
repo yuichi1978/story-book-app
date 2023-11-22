@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.css-1twr7re-JoyAccordionSummary-button:not(
+    .Mui-selected,
+    [aria-selected="true"]
+  ):hover {
+  background-color: transparent;
+}
+
+.arrowtop svg {
+  transform: rotate(180deg);
+}
+
+.arrowdowm svg {
+  transform: rotate(0deg);
+}
+
+.css-1jba045-JoyAccordionSummary-button:not(.Mui-selected, [aria-selected="true"]):active {
+  background-color: transparent !important;
+}
+
+.css-1jba045-JoyAccordionSummary-button:not(.Mui-selected, [aria-selected="true"]):hover {
+  background-color: transparent !important;
+}
+
+.MuiAccordionSummary-indicator {
+  display: none !important;
+}
